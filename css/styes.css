@@ -74,10 +74,18 @@ body {
     background: #F7FFF7;
   }
   
+  .projects a{
+    color:rgb(23, 21, 24);
+    background:rgb(165, 233, 8);
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 2px;
+  }
+  
   .working-item img{
 
     float: left;
-    margin-right: 20px;
+    margin-right: 90px;
   }
   
   /* Work Experience
@@ -103,7 +111,11 @@ body {
     background: #91CEA5;
     font-size : 20px;
   }
-  
+
+  td {
+    padding: 4px;
+
+  }
 
 
     
@@ -122,13 +134,15 @@ body {
   /* publications 
   ------------------------------------*/
   .publications {
-    background: #b1dac2;
+    background: #80a08e;
   }
   
-  .publication a{
-    color:rgb(24, 21, 21);
-    background:rgb(241, 237, 237);
+  .publications a{
+    color:rgb(23, 21, 24);
+    background:rgb(165, 233, 8);
     text-decoration: none;
+    border-radius: 4px;
+    padding: 2px;
   }
   
 
