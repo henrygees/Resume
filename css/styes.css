@@ -29,7 +29,7 @@ body {
     font-size: 15px;
   }
   img {
-    width: 300px;
+    width: 250px;
   }
   
   a {
@@ -72,6 +72,7 @@ body {
   ------------------------------------*/
   .projects {
     background: #F7FFF7;
+  
   }
   
   .projects a{
@@ -79,13 +80,13 @@ body {
     background:rgb(165, 233, 8);
     text-decoration: none;
     border-radius: 4px;
-    padding: 2px;
+    padding: 4px;
   }
   
   .working-item img{
 
     float: left;
-    margin-right: 90px;
+    margin-right: 40px;
   }
   
   /* Work Experience
@@ -94,14 +95,29 @@ body {
     background: #A1C6D7;
   }
 
-  .project-item img{
-
-    float: left;
-    margin-right: 20px;
+  .training-idc {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
   }
+
+  .computer-skills {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  
+   .project-item img{ 
+
+    float: left; 
+    margin-right: 40px; 
+  } 
    
   .work-experience li{
-    padding: 2px;
+    padding: 20px;
+  }
+  .project-detail{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
   }
   
   /* Education
