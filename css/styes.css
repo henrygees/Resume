@@ -64,14 +64,14 @@ body {
       grid-template-columns: 1fr 2fr;
     }
 
-    .profile-name .location{
+    /* .profile-name .location{
       list-style-type: none;
       padding: 0;
       display: flex;
       justify-content: space-between;
     
     }
-    h1+
+   */
     iframe{ 
       size: adjust 10px; ;
     }
